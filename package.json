@@ -1,0 +1,39 @@
+{
+  "name": "fortune-frontend",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "typecheck": "tsc --noEmit --incremental false",
+    "test": "playwright test --config=算命备份数据/playwright.config.ts",
+    "test:production": "playwright test --config=算命备份数据/playwright.production.config.ts",
+    "audit:security": "npm audit --audit-level=moderate"
+  },
+  "engines": { "node": ">=20.9.0" },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-sc": "5.3.0",
+    "@fontsource-variable/noto-serif-sc": "5.3.0",
+    "@hookform/resolvers": "^3.10.0",
+    "framer-motion": "^12.10.5",
+    "iztro": "2.6.1",
+    "lucide-react": "^0.507.0",
+    "lunar-typescript": "1.8.6",
+    "next": "16.4.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.56.4",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@tailwindcss/postcss": "4.3.3",
+    "postcss": "^8.5.29",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.8.3"
+  }
+}

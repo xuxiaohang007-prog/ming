@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/">
+  <title>打开紫微命盘</title>
+  <style>
+    :root { color-scheme: light; --paper: #faf7ef; --ink: #243d33; --gold: #a47c42; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; color: var(--ink); background: radial-gradient(ellipse at top right, #e7ddc8, transparent 60%), var(--paper); font-family: "Microsoft YaHei", sans-serif; }
+    main { width: min(100%, 560px); padding: clamp(24px, 5vw, 48px); border: 1px solid #d5c5a8; border-top: 3px solid var(--gold); background: #fffcf5; }
+    .label { margin: 0 0 20px; color: var(--gold); font-size: 12px; letter-spacing: .16em; }
+    h1 { margin: 0 0 16px; font-family: "Noto Serif SC", "SimSun", serif; font-size: clamp(28px, 6vw, 40px); font-weight: 500; }
+    p { line-height: 1.8; }
+    a { display: inline-block; margin: 8px 0 20px; padding: 14px 24px; border-radius: 6px; color: white; background: var(--ink); text-decoration: none; }
+    a:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+    aside { padding-top: 16px; border-top: 1px solid #ded5c6; font-size: 13px; overflow-wrap: anywhere; }
+    code { display: block; padding: 12px; background: #eee9de; font-family: Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">紫微命盘 / 本机入口</p>
+    <h1>正在打开系统</h1>
+    <p>将自动进入本机网页。如果没有跳转，请点击下方按钮。</p>
+    <a href="http://127.0.0.1:3000/">进入算命系统</a>
+    <aside>
+      <p>此文件是网页入口，不是可独立运行的离线系统。HTML 不能自动启动后台服务。</p>
+      <p>电脑重启后，如果出现“拒绝连接”，请在项目目录的 PowerShell 中执行：</p>
+      <code>.\启动系统.ps1</code>
+      <p>项目目录：此 HTML 文件所在的文件夹。</p>
+    </aside>
+  </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "note": "出生条件取官方快速开始。预期值预先保存，依据固定库原始输出，并手工核对农历年界、虚岁、逆行区间及四化表；不是官方预测验证。",
+  "analysisDate": "2023-10-26",
+  "nominalAge": 24,
+  "decadal": { "index": 2, "name": "大限", "heavenlyStem": "庚", "earthlyBranch": "辰", "ageRange": [23, 32] },
+  "yearly": { "index": 1, "name": "流年", "heavenlyStem": "癸", "earthlyBranch": "卯" },
+  "yearlyPalaces": ["兄弟", "命宫", "父母", "福德", "田宅", "官禄", "仆役", "迁移", "疾厄", "财帛", "子女", "夫妻"],
+  "yearlyStars": [[], ["流魁", "流昌"], [], ["流钺", "流马"], ["流喜"], ["年解"], [], [], [], ["流曲", "流陀"], ["流禄", "流鸾"], ["流羊"]],
+  "yearlyMutagens": ["破军", "巨门", "太阴", "贪狼"],
+  "timelineIndices": [4, 3, 2, 1, 0, 11, 10, 9, 8, 7, 6, 5],
+  "firstRange": [3, 12],
+  "firstYearRange": [2002, 2011]
+}

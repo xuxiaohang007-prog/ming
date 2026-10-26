@@ -1,0 +1,17 @@
+.next
+node_modules
+out
+*.log
+test-results
+production-test-results
+playwright-report
+/算命备份数据/*
+!/算命备份数据/tests/
+!/算命备份数据/playwright.config.ts
+!/算命备份数据/playwright.production.config.ts
+!/算命备份数据/tsconfig.json
+.idea/
+.vscode/
+*.tsbuildinfo
+.env*
+!.env.example

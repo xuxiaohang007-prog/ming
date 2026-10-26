@@ -1,0 +1,26 @@
+{
+  "reference": "https://iztro.com/quick-start",
+  "note": "官方示例出生条件；核对核心主星，不把天马、禄存的分类写死。",
+  "input": {
+    "name": "标准样例", "gender": "女", "birthPlace": "", "calendar": "solar",
+    "birthDate": "2000-8-16", "birthTime": "03:00", "isLeapMonth": false
+  },
+  "expected": {
+    "soul": "破军", "body": "文昌", "fiveElementsClass": "木三局",
+    "earthlyBranchOfSoulPalace": "午", "earthlyBranchOfBodyPalace": "戌"
+  },
+  "palaces": [
+    { "branch": "寅", "mainStars": ["武曲", "天相"] },
+    { "branch": "卯", "mainStars": ["太阳", "天梁"] },
+    { "branch": "辰", "mainStars": ["七杀"] },
+    { "branch": "巳", "mainStars": ["天机"] },
+    { "branch": "午", "mainStars": ["紫微"] },
+    { "branch": "未", "mainStars": [] },
+    { "branch": "申", "mainStars": ["破军"] },
+    { "branch": "酉", "mainStars": [] },
+    { "branch": "戌", "mainStars": ["廉贞", "天府"] },
+    { "branch": "亥", "mainStars": ["太阴"] },
+    { "branch": "子", "mainStars": ["贪狼"] },
+    { "branch": "丑", "mainStars": ["天同", "巨门"] }
+  ]
+}
